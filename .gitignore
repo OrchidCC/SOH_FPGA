@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pth
+*.vcd
+*.dcp
+*.jou
+*.log
+*.str
+*.bit
+vivado_proj/
+.Xil/
+pinn_sim
+mac3_test
+pinn_test
+clockInfo.txt

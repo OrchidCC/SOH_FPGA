@@ -1,0 +1,58 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Co-design Flow" id="X1gD-pgm29uxtCcATE3e">
+    <mxGraphModel dx="881" dy="565" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#333333;strokeWidth=0.6;fontFamily=Times New Roman;fontSize=9;align=center;verticalAlign=middle;" value="&lt;b&gt;PINN&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;Training&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="64" x="28" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDE9FE;strokeColor=#333333;strokeWidth=0.8;dashed=1;dashPattern=6 3;" value="" vertex="1">
+          <mxGeometry height="94" width="234" x="106" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;fontFamily=Times New Roman;fontSize=7;fontColor=#888;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;i&gt;Algorithm&lt;/i&gt;" vertex="1">
+          <mxGeometry height="12" width="104" x="112" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#333333;strokeWidth=0.6;fontFamily=Times New Roman;fontSize=9;align=center;verticalAlign=middle;" value="&lt;b&gt;Per-channel&lt;br&gt;GridWarp QAT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="84" x="120" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="text;html=1;fontFamily=Times New Roman;fontSize=7;fontColor=#888;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;i&gt;Hardware&lt;/i&gt;" vertex="1">
+          <mxGeometry height="12" width="116" x="220" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#333333;strokeWidth=0.6;fontFamily=Times New Roman;fontSize=9;align=center;verticalAlign=middle;" value="&lt;b&gt;SOH&lt;/b&gt;" vertex="1">
+          <mxGeometry height="28" width="48" x="354" y="61" as="geometry" />
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#555555;strokeWidth=1.0;endSize=4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="92" y="75" as="sourcePoint" />
+            <mxPoint x="106" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" style="endArrow=classic;html=1;strokeColor=#555555;strokeWidth=1.0;endSize=4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="75" as="sourcePoint" />
+            <mxPoint x="354" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lUuNXb7IUpe_ojU_BUA-14" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="76" width="116" x="216" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="_lUuNXb7IUpe_ojU_BUA-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#333333;strokeWidth=0.6;dashed=1;dashPattern=4 2;" value="" vertex="1">
+          <mxGeometry height="68" width="116" y="4" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="_lUuNXb7IUpe_ojU_BUA-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF3CD;strokeColor=#333333;strokeWidth=0.6;fontFamily=Times New Roman;fontSize=9;align=center;verticalAlign=middle;" value="&lt;b&gt;Per-channel LUT&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="92" x="12" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="_lUuNXb7IUpe_ojU_BUA-14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#333333;strokeWidth=0.6;fontFamily=Times New Roman;fontSize=9;align=center;verticalAlign=middle;" value="&lt;b&gt;FPGA Pipeline&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="92" x="12" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="_lUuNXb7IUpe_ojU_BUA-20" edge="1" parent="1" source="6" style="endArrow=classic;html=1;strokeColor=#555555;strokeWidth=1.0;endSize=4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" target="8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="168" as="sourcePoint" />
+            <mxPoint x="222" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
