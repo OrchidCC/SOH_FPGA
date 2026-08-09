@@ -20,9 +20,7 @@ Evaluation scripts and raw results for the CPU/GPU/FPGA comparison (Table 3 of t
 | `gpu_bench_5060.py` | GPU on-device latency benchmark + sustained load for power sampling |
 | `cpu_load.py` | CPU latency benchmark + sustained load for power sampling (single thread, pinned, high priority) |
 | `measure_cpu_power.ps1` | CPU package-power sampling around `cpu_load.py` (Windows, LibreHardwareMonitor) |
-| `bench_result.json` | Raw latency results, CPU and GPU with transfer |
 | `bench_gpu_pure.json` | Raw GPU on-device latency results |
-| `cpu_power_7800x3d.json` | Raw CPU power sampling results |
 
 ## Reported numbers
 
